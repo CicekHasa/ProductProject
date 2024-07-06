@@ -1,0 +1,62 @@
+﻿-Solid Prensibleri
+	* Kod tekrarından kaçmak
+
+-MVC olarak projenin katmanlara ayırılma sebepleri
+	*Karışıklığın önlenmesi
+	*Modüler bir yapı oluşturabilmek
+	*Yönetimi kolaylaştırmak
+	*Hataların kolay tespiti
+	*Güvenlik
+
+-Mikroservis Mimarisi neden var?
+	* Tüm mimarilerin birbirinden bağımsız olması için
+	* Servislerin birbirleri arasındaki bağımlılıkları minimize etmek için kullanılır.
+
+- Host: Sunucu, yani verilerin barındığı kısım.
+- Domain: Alan adı
+- Navbar: Sitenin üst tarafındaki menülere denir.
+- Sidebar: Sitenin sol tarafındaki menülere denir.
+- Layout: Sitenin sabit kalan içeriğinin olduğu kısıma denir.
+-MVC de sayfalar birer ActionResult adında bir method türü ile tanımlanır.
+-cshtml: c# kodu ile html kodunun birleştiği sayfalara verilen uzantı adı.
+-h1 etiketi: Yazı boyutudur. En büyük punto da yazar. h5'e doğru gittikçe yazı küçülür.
+-div etiketi: html de kutu şeklinde alan oluşturur.
+-background-color özelliği: herhangi bir etiket de style'ın bir özelliğidir. Arka plan rengi değişir.
+-br etiketi: Bir satır boşluk bırakmak için
+-a etiketi: Link oluşturmak için kullanılan etiket
+
+
+-Access Modifier (Erişim Belirleyiciler)
+	*Public: Herkesin erişebildiği içerik.
+	*Internal: Sadece bulunduğu katmandan erişilebilir.
+	*Private: Sadece bulunduğu sınıfta erişilebilir.
+	*Protected: Sadece bulunduğu sınıf ve o sınıfı kalıtım alan sınıflar erişebilir.
+
+-container özelliği: class özelliğinde kullanılır. Sayfada otomatik boşluk verip içeriği ortalamaya yarar.
+-table etiketi : Tablo oluşturmak için kullanılır.
+-th etiketi. Tabloda başlık satırları oluşturmak için kullanılır.
+-tr etiketi: Tabloda satır oluşturmak için kullanılır.
+-td etiketi: Tabloda sütun oluşturmak için kullanılır.
+-table table-bordered özelliği: class'ın bir özelliğidir. Tabloda çizgi vermek için kullanılır. Özelliğin sağlanması için bu özelliği alacağı yeri referans verilmesi gerek!
+onu da Content klasörü içindeki boostrap.min.css den alabilir.
+
+-href özelliği: kullanıcının hangi sayfaya yönlenmesi gerektiğini belirttiğimiz yer.
+-btn btn-primary özelliği: Class'ın bir özelliğidir. a etiketinde kullanıldı. Mavi Buton yapar.
+-Label etiketi: Yazı yazmka için kullanılan bir etiket.
+-input etiketi: Kullanıcının herhangi bir veriyi girmesi için kullanılan bir etiket.
+	-inputun type özellikleri
+		*text özelliği: yazı yazabileceği textbox bir kutu.
+		*number özelliği: Digdörtgen kutu verir ancak sadece sayı girişi olabilir.
+		*time özelliği: Sadece saat girişi için kullanılan bir özelliktir.
+		*password özelliği: Digdörtgen bir kutuda bir şifre girişi gibi yazı yazmanızı sağlar.
+	-inputun class özellikleri
+		*form-control özelliği: input daki bir kutunun veya herhangi bir şeyin kaymaması ve tam sayfayı kaplaması için kullanılan bir özelliktir.
+
+-textarea etiketi: Uzun metin yazıları yazmak için kulalnılan bir etikettir.
+-rows özelliği: Textarea da kullanılır. Rows sayısı ne kadar fazla ise metin kutu büyüklüğü artar.
+-btn btn-success özelliği: class'ın bir özelliğidir. Yeşil renk bir buton yapar.
+-git clone "Repodan kopyaladığın kod": Github da repo oluşturup yeni projene eklemek için proje dizinine gelip bu kodu yazmak gerekir.
+-git add .: Değişiklikleri staged'a atar.
+-git commit -m "mesaj": Stage'e atılan değişiklikleri verilen mesaja göre commitler.
+-git push origin branch_adı: Yapılan commiti uzak repoya gönderir.
+
