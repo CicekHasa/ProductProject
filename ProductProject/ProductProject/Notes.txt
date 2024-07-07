@@ -61,6 +61,9 @@ onu da Content klasörü içindeki boostrap.min.css den alabilir.
 -git add .: Değişiklikleri staged'a atar.
 -git commit -m "mesaj": Stage'e atılan değişiklikleri verilen mesaja göre commitler.
 -git push origin branch_adı: Yapılan commiti uzak repoya gönderir.
+-git merge branch_ad : 2 branch var ise ve birini diğeri ile birleştirmek için değişiklikleri birleştireceğiniz branch'e gidin ve bu komutu yazarak
+bilgileri alacağınız branch adını yazıl ama ondan önce bulunduğunuz branch'i pull etmeyi unutmayın!
+-git pull origin branch_ad: Uzaktan bu branch'e gelen değişiklik var ise onu çekmiş olursunuz.
 -Layout, sitede sabit kalan alandır. Her view bir controller'a bağlı yapmıştık, ancak layout bir controller'a bağlı olmayabilir. Layoutlar genelde projede 'Shared'
 klasöründe blunurlar.
 -Layout eklenirken herhangi bir seçenek seçilmez. Layout adının önüne '_' konur. Bir kural değildir ancak genelde o şekilde tanımlanır.
