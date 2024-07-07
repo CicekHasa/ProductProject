@@ -55,8 +55,21 @@ onu da Content klasörü içindeki boostrap.min.css den alabilir.
 -textarea etiketi: Uzun metin yazıları yazmak için kulalnılan bir etikettir.
 -rows özelliği: Textarea da kullanılır. Rows sayısı ne kadar fazla ise metin kutu büyüklüğü artar.
 -btn btn-success özelliği: class'ın bir özelliğidir. Yeşil renk bir buton yapar.
+-btn btn-danger özelliği: class'ın bir özelliğidir. Kırmızı renk bir buton yapar.
+-btn btn-warning özelliği: class'ın bir özelliğidir. Turuncu renk bir buton yapar.
 -git clone "Repodan kopyaladığın kod": Github da repo oluşturup yeni projene eklemek için proje dizinine gelip bu kodu yazmak gerekir.
 -git add .: Değişiklikleri staged'a atar.
 -git commit -m "mesaj": Stage'e atılan değişiklikleri verilen mesaja göre commitler.
 -git push origin branch_adı: Yapılan commiti uzak repoya gönderir.
+-Layout, sitede sabit kalan alandır. Her view bir controller'a bağlı yapmıştık, ancak layout bir controller'a bağlı olmayabilir. Layoutlar genelde projede 'Shared'
+klasöründe blunurlar.
+-Layout eklenirken herhangi bir seçenek seçilmez. Layout adının önüne '_' konur. Bir kural değildir ancak genelde o şekilde tanımlanır.
+-Layout sayfası kendi kendine açılamaz. Bir controller'a bağlı olmadığından dolayı farklı bir controller'a bağlı bir sayfa ile açılabilir.
+-The "RenderBody" method has not been called for layout page "~/Views/Shared/_AdminLayout.cshtml" HATASI: Bir view sayfasında layout çağırılırsa, layout
+sayfasında bağladığın view sayfasının içeriğinin nereye geleceğini belirtmediysen bu hata ile karşılaşılır. Bu view'in nereye gelmesini istiyorsan layout sayfasında
+o kısıma bir renderbody methodu eklemeniz gerekir.
+-Razor Yapısı: html sayfalarının içinde c# kodları kullanmamı sağlayan yapıdır. Razor komutlarını kullanabilmek için "@" işareti başında kullanılmalı!
+-Head alanı: Sitedeki css,boostrap vb dosya yollarını tutan alandır.
+- HTTP 404. Aradığınız kaynak (veya bağımlı olduklarından biri) kaldırılmış, adı değiştirilmiş veya geçici olarak kullanılamaz durumda olabilir HATASI: Sitede sayfa 
+bulunamadı hatasıdır bu.
 
